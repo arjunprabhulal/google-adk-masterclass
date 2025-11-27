@@ -1,0 +1,5 @@
+google-adk>=1.18.0
+python-dotenv>=1.0.0
+google-cloud-aiplatform>=1.38.0
+pytz>=2024.1
+
