@@ -1,5 +1,5 @@
 import os
-from google.adk.agents.llm_agent import Agent
+from google.adk.agents import Agent
 from dotenv import load_dotenv
 
 load_dotenv()
