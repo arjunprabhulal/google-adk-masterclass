@@ -92,4 +92,4 @@ adk web
 
 ## Next Steps
 
-Continue to [14. Model Context Protocol](../14-mcp-deep-dive/)
+Continue to [14. MCP Toolbox for Databases](../14-mcp-toolbox/)

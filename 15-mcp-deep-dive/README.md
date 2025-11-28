@@ -1,4 +1,4 @@
-# 14. Model Context Protocol (MCP) Deep Dive
+# 15. Model Context Protocol (MCP) Deep Dive
 
 MCP architecture, connection types, and production patterns.
 
@@ -33,7 +33,7 @@ Model Context Protocol is a standardized way for AI agents to connect to externa
 1. Navigate to this module:
 
 ```bash
-cd 14-mcp-deep-dive
+cd 15-mcp-deep-dive
 ```
 
 2. Create and activate a virtual environment:
@@ -99,4 +99,4 @@ python agent.py
 
 ## Next Steps
 
-Continue to [15. Session, State & Memory](../15-sessions-state-memory/)
+Continue to [16. Session, State & Memory](../16-sessions-state-memory/)

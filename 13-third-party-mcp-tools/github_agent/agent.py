@@ -7,7 +7,7 @@ connect to external services through a unified interface.
 Think of it as a universal adapter - one protocol works with
 GitHub, Slack, databases, web scrapers, and hundreds more.
 
-Blog: https://arjunprabhulal.com/adk-third-party-tools/
+Blog: https://arjunprabhulal.com/adk-third-party-tools-github/
 
 How MCP Works:
 ┌─────────────────────────────────────────────────────────────┐

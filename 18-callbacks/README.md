@@ -1,4 +1,4 @@
-# 17. Callbacks
+# 18. Callbacks
 
 Intercepting and customizing agent behavior.
 
@@ -32,7 +32,7 @@ Callbacks let you intercept and customize agent behavior at various points in th
 1. Navigate to this module:
 
 ```bash
-cd 17-callbacks
+cd 18-callbacks
 ```
 
 2. Create and activate a virtual environment:
@@ -91,4 +91,4 @@ The demo shows:
 
 ## Next Steps
 
-Continue to [18. Artifacts](../18-artifacts/)
+Continue to [19. Artifacts](../19-artifacts/)

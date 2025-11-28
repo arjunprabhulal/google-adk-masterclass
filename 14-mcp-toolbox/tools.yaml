@@ -1,0 +1,54 @@
+# MCP Toolbox for Databases - PostgreSQL Configuration
+# See: https://googleapis.github.io/genai-toolbox/getting-started/configure/
+
+sources:
+  ecommerce_db:
+    kind: postgres
+    host: ${DB_HOST:localhost}
+    port: ${DB_PORT:5432}
+    database: ${DB_NAME:ecommerce_db}
+    user: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+
+tools:
+  get_products:
+    kind: postgres-sql
+    source: ecommerce_db
+    description: "Retrieve all products from the catalog with pricing and inventory"
+    statement: SELECT * FROM products ORDER BY name
+
+  search_products:
+    kind: postgres-sql
+    source: ecommerce_db
+    description: "Search products by category"
+    parameters:
+      - name: category
+        type: string
+        description: "Product category to filter by (e.g., 'Electronics', 'Furniture')"
+    statement: SELECT * FROM products WHERE category ILIKE '%' || $1 || '%'
+
+  get_customers:
+    kind: postgres-sql
+    source: ecommerce_db
+    description: "Get all customers"
+    statement: SELECT id, name, email FROM customers ORDER BY name
+
+  get_inventory_value:
+    kind: postgres-sql
+    source: ecommerce_db
+    description: "Calculate total inventory value"
+    statement: |
+      SELECT 
+        COUNT(*) as total_products,
+        SUM(stock_quantity) as total_items,
+        SUM(price * stock_quantity) as total_value
+      FROM products
+
+# Toolsets group related tools together
+toolsets:
+  ecommerce:
+    - get_products
+    - search_products
+    - get_customers
+    - get_inventory_value
+

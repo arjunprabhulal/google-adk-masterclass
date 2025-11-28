@@ -1,4 +1,4 @@
-# 18. Artifacts
+# 19. Artifacts
 
 File and data handling in ADK agents.
 
@@ -33,7 +33,7 @@ Artifacts are files or data that agents create or use during execution:
 1. Navigate to this module:
 
 ```bash
-cd 18-artifacts
+cd 19-artifacts
 ```
 
 2. Create and activate a virtual environment:
@@ -131,4 +131,4 @@ python agent.py --gcs
 
 ## Next Steps
 
-Continue to [19. Events](../19-events/)
+Continue to [20. Events](../20-events/)

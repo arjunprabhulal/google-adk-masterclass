@@ -1,4 +1,4 @@
-# 19. Events
+# 20. Events
 
 Event streaming and debugging in ADK.
 
@@ -30,7 +30,7 @@ Events are the fundamental building blocks of ADK's execution model. They enable
 1. Navigate to this module:
 
 ```bash
-cd 19-events
+cd 20-events
 ```
 
 2. Create and activate a virtual environment:

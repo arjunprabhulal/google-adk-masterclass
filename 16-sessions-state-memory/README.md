@@ -1,4 +1,4 @@
-# 15. Session, State & Memory
+# 16. Session, State & Memory
 
 Conversation history, state management, and long-term memory.
 
@@ -33,7 +33,7 @@ ADK provides three levels of data persistence:
 1. Navigate to this module:
 
 ```bash
-cd 15-sessions-state-memory
+cd 16-sessions-state-memory
 ```
 
 2. Create and activate a virtual environment:
@@ -104,4 +104,4 @@ The demo shows:
 
 ## Next Steps
 
-Continue to [16. Context Management](../16-context-management/)
+Continue to [17. Context Management](../17-context-management/)

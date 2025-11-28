@@ -1,4 +1,4 @@
-# 16. Context Management
+# 17. Context Management
 
 Context caching and compression for better performance.
 
@@ -30,7 +30,7 @@ Context management optimizes how agents handle conversation history and system p
 1. Navigate to this module:
 
 ```bash
-cd 16-context-management
+cd 17-context-management
 ```
 
 2. Create and activate a virtual environment:
@@ -94,4 +94,4 @@ The demo shows:
 
 ## Next Steps
 
-Continue to [17. Callbacks](../17-callbacks/)
+Continue to [18. Callbacks](../18-callbacks/)
