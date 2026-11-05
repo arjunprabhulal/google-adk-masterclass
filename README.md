@@ -150,6 +150,7 @@ adk web
 - [ADK Documentation](https://google.github.io/adk-docs/)
 - [ADK GitHub Repository](https://github.com/google/adk-python)
 - [Course Homepage](https://arjunprabhulal.com/courses/adk-masterclass-hands-on-series/)
+- [Google ADK 2.0 courses on aiml.sh](https://aiml.sh/courses/google-adk/): free follow-on courses with runnable Python labs and tests
 - [Author's Blog](https://arjunprabhulal.com/)
 
 ## 🤝 Contributing
